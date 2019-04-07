@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>gk</title>
+    <link rel=icon href="img/favicon.png">
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300i,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- FULL PAGE JS (scrolling) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.css">
+    
+    <!-- STYLING -->
+    <link rel="stylesheet" href="scss/v2.css">
+</head>
+    
+<body>
+<!-- FULL WIDTH BOOTSTRAP CONTAINER -->
+<div class="container-fluid">
+<ul class="menu col-sm-offset-1 col-sm-11 hide-me" id="projects-menu">
+    <li data-menuanchor="robots"><a href="#robots" class="active">Alexa</a></li>
+    <li data-menuanchor="web"><a href="#web">ML</a></li>
+    <li data-menuanchor="mobile"><a href="#mobile">Progressive Web App</a></li>
+    <li data-menuanchor="design"><a href="#design">IoT</a></li>
+    <li data-menuanchor="misc"><a href="#misc">Concept</a></li>
+    <li data-menuanchor="contact"><a href="#contact">contact me</a></li>
+</ul>
+<div id="fullpage">
+    <div class="row section" id="intro-row">
+        <div class="col-sm-8 col-sm-offset-2" id="intro-text">
+            <h1>Hi there! I'm Gopi.</h1>
+            <h2>I’m a junior at KARE who’s excited about <strong style="color: #2ABCA4;">robotics</strong> and <strong style="color: #1DD2DA;">computer science</strong>.</h2>
+            <p>When I’m not doing <a class="underline" data-hover="homework" data-toggle="modal" data-target="#classes-modal">homework</a> or <a class="underline" data-hover="club activities" data-toggle="modal" data-target="#clubs-modal">club activities</a>, I enjoy poking around in internet, wrangling with the bezier tool, and <a class="underline" data-hover="thinking" data-toggle="modal" data-target="#jump-modal">thinking</a>.</p>
+            <div style="text-align: center;">
+                <a href="#robots" class="button">see my projects</a>
+            </div>
+        </div>
+    </div>
+    <div class="row section" id="robots-row">
+        <div class="slide">
+            <div class="title">
+                <h3>Demonstration Skill</h3>
+                <h4>Alexa</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/alexa.jpg">
+                </div>
+                <div class="text">
+                    <p>I built, wired, and programmed a self explainatory alexa skill which explains how to build an alexa skill. <br> <br> It uses Alexa skill kit and AWS for get it done.</p>
+                    <div class="buttons-block">
+                        <a target="_blank" href="#" class="button">video</a>
+                        <a href="#" class="button">gimme the details!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <div class="row section" id="web-row">
+        <div class="slide">
+            <div class="title">
+                <h3>MediCalc</h3>
+                <h4>ML based web app for prescribtion checker.</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/medicalc.jpg">
+                </div>
+                <div class="text">
+                    <p>
+                        A ML based online tool developed using Angular 2 and Node.js to review
+                        and analyze the prescription. The classification algorithm checks the
+                        prescribed medicine and dosage with disease name, age, height and
+                        weight. It results with BMI, the suggested medication and correctness of
+                        the medication prescribed and its dosage.
+                    </p>
+                    <div class="buttons-block">
+                        <a href="#" class="button">live site</a>
+                        <a href="#" class="button">features</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="row section" id="mobile-row">
+        <div class="slide">
+            <div class="title">
+                <h3>Shopify</h3>
+                <h4>Progressive Web App</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/pwa.png">
+                </div>
+                <div class="text">
+                    <p>•Application that functions as a normal shopping app and shows the
+                        capabilities of a progressive web app.
+                        •Implements oine mode, caching, less load time etc.</p>
+                    <div class="buttons-block">
+                        <a target="_blank" href="https://vimeo.com/149734129" class="button">demo video</a>
+                        <a href="#" class="button">design process</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="row section" id="design-row">
+        <div class="slide">
+            <div class="title">
+                <h3>Smart Cart</h3>
+                <h4>IOT based product for tech startup</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/thumbs-v2/talkingpts.png">
+                </div>
+                <div class="text">
+                    <p>
+                    Developed a build a shopping cart enabled with IOT device to perform
+on spot billing and update it dynamically to the server and this also functions
+in parallel to the stock management system.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="row section" id="misc-row">
+        <div class="slide">
+            <div class="title">
+                <h3>Visually Impaired Companian</h3>
+                <h4>Concept</h4>
+            </div>
+            <div class="content">
+                
+                <div class="text">
+                    <h4>This project implements Digital Image Processing, Speech recognition and
+                        IOT to design a product for Visually Impaired people to give a feel of artificial
+                        vision with precise movements. The basic ML based algorithm helps the user
+                        with facial, currency notes and object recognition. At further stage idea could
+                        be developed as a prosthesis device which generates artificial electric impulse
+                        which contains data from the camera. This transmitted impulse through the
+                        optic nerve can be processed like normal vision by the brain.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="title">
+                <h3>ENGR 40M Projects</h3>
+                <h4>an assortment of projects built for an EE class</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/thumbs-v2/tbd.png">
+                </div>
+                <div class="text">
+                    <ol>
+                        <li><strong>solar USB charger:</strong> diodes and boost converters</li>
+                        <li><strong>useless box:</strong> Arduino, servos, and switches</li>
+                        <li><strong>LED cube:</strong> transistors, multiplexing, and lots of soldering!</li>
+                        <li><strong>EKG circuit:</strong> opamp filters and oscilloscopes</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="title">
+                <h3>Rapid Prototyping</h3>
+                <h4>experiments on the 3D printer and laser cutter</h4>
+            </div>
+            <div class="content">
+                <div class="img">
+                    <img src="img/projects/thumbs-v2/tbd.png">
+                </div>
+                <div class="text">
+                    <ol>
+                        <li><strong>3D printed "floating" helmet hanger</strong> modeled in Tinkercad.</li>
+                        <li><strong>laser cut puzzle magnets</strong> cut out of good ol' plywood.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="title">
+                <h3>Fun with Cardboard</h3>
+                <h4>painted cardboard as (Halloween) fashion accessories</h4>
+            </div>
+            <div class="content">
+                <div class="img" style="max-width: 100% !important;">
+                    <img src="img/projects/thumbs-v2/cardboard.png">
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="title">
+                <h3>Kinetic Charger Concept</h3>
+                <h4>power walking 2.0</h4>
+            </div>
+            <div class="content">
+                <div class="img" style="max-width: 100% !important;">
+                    <img src="img/projects/thumbs-v2/ess.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row section" id="contact-row">
+        <h3>Thanks for visiting!</h3>
+        <p>Want to learn more? Check out my code on <a target="_blank" class="underline" href="https://github.com/gopikrishna169" data-hover="Github">Github</a>, download my <a target="_blank" class="underline" href="Gopi.pdf" data-hover="resume">resume</a>, hop over to <a target="_blank" class="underline" href="www.linkedin.com/in/gopi-krishn
+            an-r" data-hover="LinkedIn">LinkedIn</a>, or send me an <a class="underline" href="mailto:gopikrishna169@gmail.com?Subject=Hello!" id="email" data-hover="email">email</a>.</p>
+        <div style="text-align: center;">
+            <a href="#intro" class="button">back to the top!</a>
+        </div>
+    </div>
+</div>
+</div>
+    
+<!-- MODALS -->
+<div class="modal fade" id="classes-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title">Relevant Coursework</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Artificial Intelligence <br>
+                    Computer Vision: Foundations and Applications <br>
+                    Programming Abstractions <br>
+                    CS + Social Good <br>
+                    <br>
+                    Vector Calculus for Engineers <br>
+                    Ordinary Differential Equations for Engineers <br>
+                    
+                    <br>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="clubs-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title">Clubs!</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Coder Crew <br>
+                    Photography<br>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="jump-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <img src="img/jump.png">
+                <p>Way to be me!</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- SCRIPTS BELOW -->
+<!------------------->
+    
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+<!-- BOOSTRAP -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+<!-- FULL PAGE JS (scrolling) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>   
+
+<!-- MY JAVASCRIPT -->
+<script src="js/v2.js"></script>
+    
+</body>
+</html>
